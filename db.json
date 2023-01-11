@@ -4,9 +4,24 @@
     "background": {
       "color": "white"
     },
+    "view-cart-icon": {
+      "iconset": "FontAwesome",
+      "iconName": "shopping-cart",
+      "size": 30,
+      "color": "#900"
+    },
     "popups": {
+      "background": {
+        "color": "white"
+      },
       "offer": " Get 20% OFF",
       "description": "Save 20% on your first purchase",
+      "offer-button": {
+        "title": "Get 20% OFF",
+        "style": {
+          "color": "pink"
+        }
+      },
       "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
     },
     "banner": {
@@ -75,5 +90,84 @@
       "description": "ootwear intended to protect and comfort the human foot. They are often worn with a sock. Shoes are also used as an item of decoration and fashion.",
       "image": "https://images.unsplash.com/photo-1467043237213-65f2da53396f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     }
-  ]
+  ],
+  "cart": {
+    "purchase-btn": {
+      "background-color": "rgba(200, 180, 50, 1)",
+      "text": "Buy Now!!"
+    },
+    "cart-item-description": {
+      "remove-btn": {
+        "background-color": "rgba(250, 50, 50, 0.7)",
+        "text": "Remove from cart"
+      }
+    },
+    "icon": {
+      "iconset": "FontAwesome",
+      "iconName": "shopping-cart",
+      "size": 30,
+      "color": "#900"
+    },
+    "title": "Cart",
+    "background": {
+      "color": "white"
+    },
+    "cart-empty": {
+      "icon": {
+        "iconName": "shopping-cart",
+        "size": 100,
+        "color": "#900",
+        "iconset": "FontAwesome"
+      },
+      "description": "Oops!! Your cart is empty!"
+    },
+    "popups": {
+      "background": {
+        "color": "white"
+      },
+      "offer": " Get 20% OFF",
+      "description": "Save 20% on your first purchase",
+      "offer-button": {
+        "title": "Get 20% OFF",
+        "style": {
+          "color": "pink"
+        }
+      },
+      "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+    }
+  },
+  "show-item": {
+    "title": "Item-Details",
+    "background": {
+      "color": "white"
+    },
+    "button": {
+      "add-to-cart-btn": {
+        "background-color": "rgba(200, 180, 50, 1)",
+        "text": "Add to cart",
+        "text-color": ""
+      }
+    },
+    "popups": {
+      "background": {
+        "color": "white"
+      },
+      "offer": " Get 20% OFF",
+      "description": "Save 20% on your first purchase",
+      "offer-button": {
+        "title": "Get 20% OFF",
+        "style": {
+          "color": "pink"
+        }
+      },
+      "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+    }
+  },
+  "thankyou": {
+    "message": "Your order has been confirmed!!",
+    "image": "https://images.unsplash.com/photo-1526614180703-827d23e7c8f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+    "background": {
+      "color": "white"
+    }
+  }
 }
