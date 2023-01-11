@@ -4,7 +4,7 @@
     "background": {
       "color": "white"
     },
-    "view-cart-icon": {
+    "viewCartIcon": {
       "iconset": "FontAwesome",
       "iconName": "shopping-cart",
       "size": 30,
@@ -16,7 +16,7 @@
       },
       "offer": " Get 20% OFF",
       "description": "Save 20% on your first purchase",
-      "offer-button": {
+      "offerButton": {
         "title": "Get 20% OFF",
         "style": {
           "color": "pink"
@@ -25,7 +25,7 @@
       "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
     },
     "banner": {
-      "banner-background-color": "#00008B",
+      "bannerBackgroundColor": "#00008B",
       "image": "https://images.unsplash.com/photo-1561069934-eee225952461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     }
   },
@@ -92,13 +92,13 @@
     }
   ],
   "cart": {
-    "purchase-btn": {
-      "background-color": "rgba(200, 180, 50, 1)",
+    "purchaseBtn": {
+      "backgroundColor": "rgba(200, 180, 50, 1)",
       "text": "Buy Now!!"
     },
-    "cart-item-description": {
-      "remove-btn": {
-        "background-color": "rgba(250, 50, 50, 0.7)",
+    "cartItemDescription": {
+      "removeBtn": {
+        "backgroundColor": "rgba(250, 50, 50, 0.7)",
         "text": "Remove from cart"
       }
     },
@@ -112,7 +112,7 @@
     "background": {
       "color": "white"
     },
-    "cart-empty": {
+    "cartEmpty": {
       "icon": {
         "iconName": "shopping-cart",
         "size": 100,
@@ -127,7 +127,7 @@
       },
       "offer": " Get 20% OFF",
       "description": "Save 20% on your first purchase",
-      "offer-button": {
+      "offerButton": {
         "title": "Get 20% OFF",
         "style": {
           "color": "pink"
@@ -136,13 +136,13 @@
       "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
     }
   },
-  "show-item": {
+  "showItem": {
     "title": "Item-Details",
     "background": {
       "color": "white"
     },
     "button": {
-      "add-to-cart-btn": {
+      "addToCartBtn": {
         "background-color": "rgba(200, 180, 50, 1)",
         "text": "Add to cart",
         "text-color": ""
@@ -154,7 +154,7 @@
       },
       "offer": " Get 20% OFF",
       "description": "Save 20% on your first purchase",
-      "offer-button": {
+      "offerButton": {
         "title": "Get 20% OFF",
         "style": {
           "color": "pink"
