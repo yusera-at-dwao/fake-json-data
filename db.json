@@ -150,9 +150,9 @@
     },
     "button": {
       "addToCartBtn": {
-        "background-color": "rgba(200, 180, 50, 1)",
+        "backgroundColor": "rgba(200, 180, 50, 1)",
         "text": "Add to cart",
-        "text-color": ""
+        "textColor": ""
       }
     },
     "popups": {
