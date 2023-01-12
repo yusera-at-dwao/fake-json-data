@@ -140,6 +140,12 @@
           "color": "pink"
         }
       },
+      "closePopup": {
+        "iconset": "AntDesign",
+        "iconName": "closecircle",
+        "size": 30,
+        "color": ""
+      },
       "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
     }
   },
@@ -166,6 +172,12 @@
         "style": {
           "color": "pink"
         }
+      },
+      "closePopup": {
+        "iconset": "AntDesign",
+        "iconName": "closecircle",
+        "size": 30,
+        "color": ""
       },
       "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
     }
