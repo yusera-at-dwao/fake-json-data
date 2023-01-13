@@ -183,56 +183,65 @@
     }
   },
 
-  "checkout": {
-    "background": { "color": "" },
-    "title": "Confirm your order",
-    "button": {
-      "confirmOrderBtn": {
-        "title": "Confirm Order",
-        "color": "white",
-        "backgroundColor": "green"
+  "thankyouAndCheckout": {
+    "thankyou": {
+      "message": "Your order has been confirmed!!",
+      "image": "https://images.unsplash.com/photo-1526614180703-827d23e7c8f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+      "background": {
+        "color": "white"
       }
     },
-    "customerDetailsBox": {
-      "background": { "color": "white" },
-      "boxTitle": "Enter your details",
-      "name": {
-        "title": "Name",
-        "placeholder": "Enter your Name"
+    "checkout": {
+      "background": { "color": "" },
+      "title": "Confirm your order",
+      "button": {
+        "confirmOrderBtn": {
+          "title": "Confirm Order",
+          "color": "white",
+          "backgroundColor": "green"
+        }
       },
-      "email&phone": {
-        "title": "Email/Phone",
-        "placeholder": "Enter your Email/Phone."
-      }
-    },
-    "deliveryDetailsBox": {
-      "background": { "color": "white" },
-      "boxTitle": "delivery Details",
-      "address": {
-        "title": "Address",
-        "placeholder": "Enter your address."
+      "customerDetailsBox": {
+        "background": { "color": "white" },
+        "boxTitle": "Enter your details",
+        "name": {
+          "title": "Name",
+          "placeholder": "Enter your Name"
+        },
+        "email&phone": {
+          "title": "Email/Phone",
+          "placeholder": "Enter your Email/Phone."
+        }
       },
-      "city": {
-        "title": "city",
-        "placeholder": "city-name"
+      "deliveryDetailsBox": {
+        "background": { "color": "white" },
+        "boxTitle": "delivery Details",
+        "address": {
+          "title": "Address",
+          "placeholder": "Enter your address."
+        },
+        "city": {
+          "title": "city",
+          "placeholder": "city-name"
+        },
+        "country": {
+          "title": "country",
+          "placeholder": "country-name"
+        },
+        "zipCode": {
+          "title": "zip-code",
+          "placeholder": "zip-code"
+        }
       },
-      "country": {
-        "title": "country",
-        "placeholder": "country-name"
-      },
-      "zipCode": {
-        "title": "zip-code",
-        "placeholder": "zip-code"
-      }
-    },
-    "orderSummaryBox": {
-      "background": { "color": "white" },
-      "boxTitle": "Order Summary",
-      "subtotal": {
-        "title": "Subtotal"
-      },
-      "deliveryCharges": {
-        "title": "Delivery charges"
+      "orderSummaryBox": {
+        "background": { "color": "white" },
+        "boxTitle": "Order Summary",
+        "subtotal": {
+          "title": "Subtotal"
+        },
+        "deliveryCharges": {
+          "title": "Delivery charges"
+        }
       }
     }
   }
