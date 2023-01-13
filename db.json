@@ -182,13 +182,7 @@
       "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
     }
   },
-  "thankyou": {
-    "message": "Your order has been confirmed!!",
-    "image": "https://images.unsplash.com/photo-1526614180703-827d23e7c8f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
-    "background": {
-      "color": "white"
-    }
-  },
+
   "checkout": {
     "background": { "color": "" },
     "title": "Confirm your order",
