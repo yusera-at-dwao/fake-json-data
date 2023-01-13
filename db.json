@@ -1,5 +1,5 @@
 {
-  "Home": {
+  "home": {
     "title": "E-Commerce App",
     "background": {
       "color": "white"
@@ -214,7 +214,7 @@
     "deliveryDetailsBox": {
       "background": { "color": "white" },
       "boxTitle": "delivery Details",
-      "Address": {
+      "Aaddress": {
         "title": "Address",
         "placeholder": "Enter your address."
       },
