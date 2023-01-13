@@ -237,7 +237,7 @@
       "subtotal": {
         "title": "Subtotal"
       },
-      "DeliveryCharges": {
+      "deliveryCharges": {
         "title": "Delivery charges"
       }
     }
