@@ -188,5 +188,58 @@
     "background": {
       "color": "white"
     }
+  },
+  "checkout": {
+    "background": { "color": "" },
+    "title": "Confirm your order",
+    "button": {
+      "confirmOrderBtn": {
+        "title": "Confirm Order",
+        "color": "white",
+        "backgroundColor": "green"
+      }
+    },
+    "customerDetailsBox": {
+      "background": { "color": "white" },
+      "boxTitle": "Enter your details",
+      "name": {
+        "title": "Name",
+        "placeholder": "Enter your Name"
+      },
+      "email&phone": {
+        "title": "Email/Phone",
+        "placeholder": "Enter your Email/Phone."
+      }
+    },
+    "deliveryDetailsBox": {
+      "background": { "color": "white" },
+      "boxTitle": "delivery Details",
+      "Address": {
+        "title": "Address",
+        "placeholder": "Enter your address."
+      },
+      "city": {
+        "title": "city",
+        "placeholder": "city-name"
+      },
+      "country": {
+        "title": "country",
+        "placeholder": "country-name"
+      },
+      "zipCode": {
+        "title": "zip-code",
+        "placeholder": "zip-code"
+      }
+    },
+    "orderSummaryBox": {
+      "background": { "color": "white" },
+      "boxTitle": "Order Summary",
+      "subtotal": {
+        "title": "Subtotal"
+      },
+      "DeliveryCharges": {
+        "title": "Delivery charges"
+      }
+    }
   }
 }
