@@ -214,7 +214,7 @@
     "deliveryDetailsBox": {
       "background": { "color": "white" },
       "boxTitle": "delivery Details",
-      "Aaddress": {
+      "address": {
         "title": "Address",
         "placeholder": "Enter your address."
       },
