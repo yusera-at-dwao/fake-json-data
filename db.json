@@ -15,9 +15,9 @@
         "color": "white"
       },
       "offer": " Get 20% OFF",
-      "description": "Save 20% on your first purchase",
+      "description": "All free",
       "offerButton": {
-        "title": "Get 20% OFF",
+        "title": "Get 100% OFF",
         "style": {
           "color": "pink"
         }
