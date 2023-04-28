@@ -1,43 +1,88 @@
 {
   "home": {
-    "title": "E-Commerce App",
-    "background": {
-      "color": "white"
-    },
-    "viewCartIcon": {
-      "iconset": "FontAwesome",
-      "iconName": "shopping-cart",
-      "size": 30,
-      "color": "#900"
-    },
-    "popups": {
-      "background": {
-        "color": "white"
+    "popup": {
+      "text": {
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
       },
-      "offer": " Get 20% OFF",
-      "description": "All free",
+      "buttonBorder": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "border": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "background": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "title": " Get 20% OFF",
+      "description": "Save 20% on your first purchase",
       "offerButton": {
-        "title": "Get 100% OFF",
+        "title": "Get 20% OFF",
         "style": {
-          "color": "pink"
+          "color": {
+            "code": "pink",
+            "r": 253,
+            "g": 191,
+            "b": 202
+          }
         }
       },
       "closePopup": {
+        "title": "close",
         "iconset": "AntDesign",
         "iconName": "closecircle",
         "size": 30,
         "color": ""
       },
-      "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+      "image": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
     },
+    "title": "E-Commerce App(local)",
+    "background": {
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      }
+    },
+    "viewCartIcon": {
+      "iconset": "FontAwesome",
+      "iconName": "shopping_cart",
+      "size": 30,
+      "color": {
+        "r": 153,
+        "g": 0,
+        "b": 0
+      }
+    },
+
     "banner": {
-      "bannerBackgroundColor": "#00008B",
+      "bannerBackgroundColor": {
+        "r": 0,
+        "g": 0,
+        "b": 139,
+        "code": "#00008B"
+      },
       "image": "https://images.unsplash.com/photo-1561069934-eee225952461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     }
   },
   "products": [
     {
-      "rate": 3455,
+      "rate": 34555,
       "id": "350afk7780d5",
       "description": "ootwear intended to protect and comfort the human foot. They are often worn with a sock. Shoes are also used as an item of decoration and fashion.",
       "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -99,87 +144,310 @@
     }
   ],
   "cart": {
-    "purchaseBtn": {
-      "backgroundColor": "rgba(200, 180, 50, 1)",
-      "text": "Buy Now!!"
+    "button": {
+      "purchaseBtn": {
+        "backgroundColor": { "r": 200, "g": 180, "b": 50 },
+        "text": "Buy Now!!"
+      }
     },
     "cartItemDescription": {
       "removeBtn": {
-        "backgroundColor": "rgba(250, 50, 50, 0.7)",
+        "backgroundColor": { "r": 250, "g": 50, "b": 50, "o": 0.7 },
         "text": "Remove from cart"
       }
     },
     "icon": {
       "iconset": "FontAwesome",
-      "iconName": "shopping-cart",
+      "iconName": "shopping_cart",
       "size": 30,
-      "color": "#900"
+      "color": {
+        "r": 153,
+        "g": 0,
+        "b": 0
+      }
     },
-    "title": "Cart",
+    "title": "Cart (L)",
     "background": {
-      "color": "white"
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      }
     },
     "cartEmpty": {
       "icon": {
-        "iconName": "shopping-cart",
+        "iconName": "shopping_cart",
         "size": 100,
-        "color": "#900",
+        "color": {
+          "r": 153,
+          "g": 0,
+          "b": 0
+        },
         "iconset": "FontAwesome"
       },
       "description": "Oops!! Your cart is empty!"
     },
-    "popups": {
-      "background": {
-        "color": "white"
+    "popup": {
+      "text": {
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
       },
-      "offer": " Get 20% OFF",
+      "buttonBorder": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "border": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "background": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "title": " Get 20% OFF",
       "description": "Save 20% on your first purchase",
       "offerButton": {
         "title": "Get 20% OFF",
         "style": {
-          "color": "pink"
+          "color": {
+            "code": "pink",
+            "r": 253,
+            "g": 191,
+            "b": 202
+          }
         }
       },
       "closePopup": {
+        "title": "close",
         "iconset": "AntDesign",
         "iconName": "closecircle",
         "size": 30,
         "color": ""
       },
-      "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+      "image": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
     }
   },
   "showItem": {
-    "title": "Item-Details",
+    "title": "Item-Details(L)",
     "background": {
-      "color": "white"
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      }
     },
     "button": {
       "addToCartBtn": {
-        "backgroundColor": "rgba(200, 180, 50, 1)",
+        "backgroundColor": {
+          "r": 200,
+          "g": 180,
+          "b": 50
+        },
         "text": "Add to cart",
         "textColor": ""
       }
     },
-    "popups": {
-      "background": {
-        "color": "white"
+    "popup": {
+      "text": {
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
       },
-      "offer": " Get 20% OFF",
+      "buttonBorder": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "border": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "background": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "title": " Get 20% OFF",
       "description": "Save 20% on your first purchase",
       "offerButton": {
         "title": "Get 20% OFF",
         "style": {
-          "color": "pink"
+          "color": {
+            "code": "pink",
+            "r": 253,
+            "g": 191,
+            "b": 202
+          }
         }
       },
       "closePopup": {
+        "title": "close",
         "iconset": "AntDesign",
         "iconName": "closecircle",
         "size": 30,
         "color": ""
       },
-      "img": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+      "image": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+    }
+  },
+  "thankyou": {
+    "message": "Your order has been confirmed!!",
+    "image": "https://images.unsplash.com/photo-1526614180703-827d23e7c8f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+    "background": {
+      "color": "white"
+    }
+  },
+  "checkout": {
+    "popup": {
+      "text": {
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      },
+      "background": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "border": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "buttonBorder": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "title": " Get 20% OFF",
+      "description": "Save 20% on your first purchase",
+      "offerButton": {
+        "title": "Get 20% OFF",
+        "style": {
+          "color": {
+            "code": "pink",
+            "r": 253,
+            "g": 191,
+            "b": 202
+          }
+        }
+      },
+      "closePopup": {
+        "title": "close",
+        "iconset": "AntDesign",
+        "iconName": "closecircle",
+        "size": 30,
+        "color": ""
+      },
+      "image": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+    },
+    "background": {
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      }
+    },
+    "title": "Confirm your order(Local)",
+    "button": {
+      "confirmOrderBtn": {
+        "title": "Confirm Order",
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "backgroundColor": { "r": 76, "g": 154, "b": 0 }
+      }
+    },
+    "customerDetailsBox": {
+      "background": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "boxTitle": "Enter your details",
+      "name": {
+        "title": "Name",
+        "placeholder": "Enter your Name"
+      },
+      "emailAndPhone": {
+        "title": "Email/Phone",
+        "placeholder": "Enter your Email/Phone."
+      }
+    },
+    "deliveryDetailsBox": {
+      "background": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "boxTitle": "delivery Details",
+      "address": {
+        "title": "Address",
+        "placeholder": "Enter your address."
+      },
+      "city": {
+        "title": "city",
+        "placeholder": "city-name"
+      },
+      "country": {
+        "title": "country",
+        "placeholder": "country-name"
+      },
+      "zipCode": {
+        "title": "zip-code",
+        "placeholder": "zip-code"
+      }
+    },
+    "orderSummaryBox": {
+      "background": {
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "boxTitle": "Order Summary",
+      "subtotal": {
+        "title": "Subtotal"
+      },
+      "deliveryCharges": {
+        "title": "Delivery charges"
+      }
     }
   }
 }
